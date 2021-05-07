@@ -27,9 +27,9 @@
             <div class="lunghe">
                 <h2>le lunghe</h2>
                 <div class="cards">
-                    @foreach($lunghe as $pasta)
+                    @foreach($lunga as $pasta)
                     <div class="card">
-                        <img src="{{$pasta['scr']}}" alt="">
+                        <img src="{{$pasta['src']}}" alt="">
                     </div>
                     @endforeach
                 </div>

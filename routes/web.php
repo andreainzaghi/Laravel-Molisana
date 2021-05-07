@@ -146,14 +146,13 @@ Route::get('/', function () {
             $lunga[]=$pasta;
         } else if($pasta['tipo']=='corta'){
             $corta[]=$pasta;
-        } else ($pasta['tipo']=='cortissima'){
+        } else if($pasta['tipo']=='cortissima'){
             $cortissima[]=$pasta;
         }       
     }
 
     return view('home',[
-        'data'=> $data
-    ]);
+        'lunga'=> $lunga,   ]);
 
   
 });
