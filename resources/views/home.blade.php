@@ -124,9 +124,11 @@
           </div>
           
 
-
+   
         </footer>
-       
+       <section>          <div class="montagne">
+        <img src="{{asset('img/footer-montagne-bottom.jpg')}}" alt="" width="100%"> 
+     </div></section>
       
     </body>
 </html>
