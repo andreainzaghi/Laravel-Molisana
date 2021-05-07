@@ -13,7 +13,29 @@
     
     </head>
     <body>
-        <div class="logo"> <img src="{{asset('img/marchio-sito-test.png')}}" alt="" width="200px"></div>
+        <header>
+            <div class="logo"> <img src="{{asset('img/marchio-sito-test.png')}}" alt="" width="200px"></div>
+            <div class="nav-bar">
+                <ul>
+                    <li>Home</li>
+                    <li>Prodotti</li>
+                    <li>News</li>
+                </ul>
+            </div>
+        </header>
+        <main>
+            <div class="lunghe">
+                <h2>le lunghe</h2>
+                <div class="cards">
+                    @foreach($lunghe as $pasta)
+                    <div class="card">
+                        <img src="{{$pasta['scr']}}" alt="">
+                    </div>
+                    @endforeach
+                </div>
+            </div>
+        </main>
+       
       
     </body>
 </html>
