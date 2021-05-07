@@ -5,7 +5,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
         <title>Laravel</title>
-         <link rel="" href="{{asset('css/app.css')}}">
+         <link rel="stylesheet" href="{{asset('css/app.css')}}">
         <!-- Fonts -->
         <link href="https://fonts.googleapis.com/css?family=Nunito:200,600" rel="stylesheet">
 
@@ -34,7 +34,98 @@
                     @endforeach
                 </div>
             </div>
+            <div class="corte">
+                <h2>le corte</h2>
+                <div class="cards">
+                    @foreach($lunga as $pasta)
+                    <div class="card">
+                        <img src="{{$pasta['src']}}" alt="">
+                    </div>
+                    @endforeach
+                </div>
+            </div>
+            <div class="cortissime">
+                <h2>le cortissime</h2>
+                <div class="cards">
+                    @foreach($lunga as $pasta)
+                    <div class="card">
+                        <img src="{{$pasta['src']}}" alt="">
+                    </div>
+                    @endforeach
+                </div>
+            </div>
         </main>
+        <footer>
+            <div class="untre">
+  
+                    <img src="{{asset('img/marchio-sito-test.png')}}" alt="" width="200px">                    </li>
+                <li>Lorem ipsum dolor sit enim placeat harum ad. </li>
+                <li>Lorem ipsum dolor sit enim placeat harum ad. </li>
+                <li>Lorem ipsum dolor sit enim placeat harum ad. </li>
+                <li>Lorem ipsum dolor sit enim placeat harum ad. </li>
+                <li>Lorem ipsum dolor sit enim placeat harum ad. </li>
+                <li>Lorem ipsum dolor sit enim placeat harum ad. </li>
+                <li>Lorem ipsum dolor sit enim placeat harum ad. </li>
+                <li>Lorem ipsum dolor sit enim placeat harum ad. </li>
+                <li>Lorem ipsum dolor sit enim placeat harum ad. </li>
+                <li>Lorem ipsum dolor sit enim placeat harum ad. </li>
+                <li>Lorem ipsum dolor sit enim placeat harum ad. </li>
+                </ul>
+            </div>
+          <div class="duetre">
+              <div class="tredue">
+                <h3>PASTIFICIO</h3>
+                <ul>
+                    <li>IL pastificio</li>
+                    <li>IL pastificio</li>
+                    <li>IL pastificio</li>
+                    <li>IL pastificio</li>
+                    <li>IL pastificio</li>
+                    <li>IL pastificio</li>
+                    <li>IL pastificio</li>
+                    <li>IL pastificio</li>
+                    <li>IL pastificio</li>
+                    <li>IL pastificio</li>
+                    <li>IL pastificio</li>
+                </ul>
+              </div>
+              <div class="tredue">
+                <h3>PASTIFICIO</h3>
+                <ul>
+                    <li>IL pastificio</li>
+                    <li>IL pastificio</li>
+                    <li>IL pastificio</li>
+                    <li>IL pastificio</li>
+                    <li>IL pastificio</li>
+                    <li>IL pastificio</li>
+                    <li>IL pastificio</li>
+                    <li>IL pastificio</li>
+                    <li>IL pastificio</li>
+                    <li>IL pastificio</li>
+                    <li>IL pastificio</li>
+                </ul>
+              </div>
+              <div class="tredue">
+                <h3>PASTIFICIO</h3>
+                <ul>
+                    <li>IL pastificio</li>
+                    <li>IL pastificio</li>
+                    <li>IL pastificio</li>
+                    <li>IL pastificio</li>
+                    <li>IL pastificio</li>
+                    <li>IL pastificio</li>
+                    <li>IL pastificio</li>
+                    <li>IL pastificio</li>
+                    <li>IL pastificio</li>
+                    <li>IL pastificio</li>
+                    <li>IL pastificio</li>
+                </ul>
+              </div>
+          </div>
+          
+
+
+        </footer>
        
       
     </body>

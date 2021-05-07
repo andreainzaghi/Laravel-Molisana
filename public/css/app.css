@@ -1,4 +1,58 @@
 .logo {
   display: flex;
   justify-content: center;
+  padding: 30px 0;
+}
+
+.nav-bar ul {
+  display: flex;
+  justify-content: center;
+}
+.nav-bar ul li {
+  padding: 0px 20px;
+  display: inline-block;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.cortissime, .corte, .lunghe {
+  margin: 0 auto;
+  width: 80%;
+}
+
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+}
+.cards img {
+  width: 350px;
+  padding: 15px;
+}
+
+main {
+  background-image: url("../img/fondo-pag-speciali.jpg");
+  background-size: contain;
+}
+
+footer {
+  width: 80%;
+  padding: 40px;
+  margin: 0 auto;
+  display: flex;
+}
+footer .untre {
+  width: 33.33%;
+}
+footer .duetre {
+  padding: 40px;
+  width: 66%;
+  display: flex;
+  flex-wrap: wrap;
+}
+footer .duetre .tredue {
+  width: 50%;
 }
