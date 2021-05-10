@@ -4,7 +4,7 @@
 {{$productElement['titolo']}}
 @endsection
 
-@section('contect')
+@section('content')
     <h1>
         {{$productElement['titolo']}}
     </h1>
