@@ -17,13 +17,14 @@
             <div class="logo"> <img src="{{asset('img/marchio-sito-test.png')}}" alt="" width="200px"></div>
             <div class="nav-bar">
                 <ul>
-                    <li>Home</li>
-                    <li>Prodotti</li>
-                    <li>News</li>
+                    <li><a href="{{route('homepage')}}">Home</a> </li>
+                    <li><a href="{{route('product')}}">Prodotti</a> </li>
+                    <li><a href="{{route('news')}}">News</a> </li>
                 </ul>
             </div>
         </header>
         <main>
+            <div class="foto-main">
             <div class="lunghe">
                 <h2>le lunghe</h2>
                 <div class="cards">
@@ -54,11 +55,13 @@
                     @endforeach
                 </div>
             </div>
+        </div>
         </main>
         <footer>
             <div class="untre">
   
-                    <img src="{{asset('img/marchio-sito-test.png')}}" alt="" width="200px">                    </li>
+                    <img src="{{asset('img/marchio-sito-test.png')}}" alt="" width="200px">  
+                <ul>                  </li>
                 <li>Lorem ipsum dolor sit enim placeat harum ad. </li>
                 <li>Lorem ipsum dolor sit enim placeat harum ad. </li>
                 <li>Lorem ipsum dolor sit enim placeat harum ad. </li>

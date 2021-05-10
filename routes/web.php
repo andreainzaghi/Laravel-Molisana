@@ -152,7 +152,30 @@ Route::get('/', function () {
     }
 
     return view('home',[
-        'lunga'=> $lunga,   ]);
+    'lunga'=> $lunga,
+    'corta'=> $corta,
+    'cortissima'=> $cortissima,
+    ]);
 
   
-});
+}) -> name('homepage');
+
+Route::get('/product/{id}', function ($id) {
+   $product=$data[$index];
+    if($index > count($data)){
+        abort(404);
+    }
+   
+
+    return view('product',[
+        'productElement'=>$product
+    ]
+);
+}) -> name('product');
+
+
+Route::get('/news', function () {
+    return view('news');
+}) ->where('id','[0-9]+')-> name('news');
+
+
