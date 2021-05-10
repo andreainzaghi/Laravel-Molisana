@@ -160,13 +160,12 @@ Route::get('/', function () {
   
 }) -> name('homepage');
 
-Route::get('/product/{id}', function ($id) {
+Route::get('/product/{index}', function ($index) {
    $product=$data[$index];
     if($index > count($data)){
         abort(404);
     }
    
-
     return view('product',[
         'productElement'=>$product
     ]
