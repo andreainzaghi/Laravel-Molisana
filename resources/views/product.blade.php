@@ -1,4 +1,4 @@
-@extend('layout.app')
+@extends('layout.app')
 
 @section('title')
 {{$productElement['titolo']}}
